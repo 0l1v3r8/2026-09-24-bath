@@ -1,0 +1,45 @@
+{% comment %}
+Setup instructions specific to using Noteable for the University of Bath Carpentries workshop. This file is included in the main setup instructions for the workshop.
+{% endcomment %}
+<div class="card mb-2" id="setup">
+  <div class="card-header d-flex align-items-center justify-content-between">
+    <h5>Setup</h5>
+  </div>
+  <div class="card-body">
+  <p>
+    All the activities in this workshop will be done using <a href="https://noteable.edina.ac.uk/">Noteable</a>,
+    a cloud-based platform that provides access to Jupyter Python notebooks, terminals, and other tools.
+    You do not need to install any software on your own computer to take part in the workshop.
+  </p>
+  <p>
+    You can find the link to the Noteable platform and your workshop materials on the workshop's <a href="https://moodle.bath.ac.uk/course/view.php?id=63562">Moodle page</a>.
+    Once you have logged in, select the "Standard Python 3" personal notebook server option and click "Start".
+  </p>
+  <p>
+    Download the file <code>swc-samba-cdt.zip</code> from the workshop's <a href="https://moodle.bath.ac.uk/course/view.php?id=63562">Moodle page</a>, then upload it to your Noteable workspace by clicking the "Upload" button in the top right corner of the Noteable interface and selecting the file.
+  </p>
+  <p>
+    Next, open a terminal in Noteable and unzip the file using the command:
+    <pre><code>unzip swc-samba-cdt.zip</code></pre>
+  </p>
+  <p>
+    Note: if you are prompted to replace <code>.DS_Store</code>, you can safely type "n" and press Enter to skip it.
+  </p>
+  <div class="alert alert-warning" role="alert">
+    <strong>Your Noteable server is temporary.</strong> Everything in your workspace is deleted when the server is shut down or your session ends. Before you finish each session, download any files you want to keep (right-click a file in the JupyterLab file browser and choose "Download"). At the start of the next session, you will need to re-upload the workshop data to Noteable again before you can continue.
+  </div>
+  <p>
+    Once the zip file has been extracted, the JupyterLab file browser on the left should show the following at the root of your workspace:
+  </p>
+  <ul>
+    <li><code>shell-lesson-data/</code></li>
+    <li><code>python-lesson-data/</code></li>
+    <li><code>shared-data-Oth_MPG_SoftwareSkills/</code></li>
+    <li><code>instructor-courses/</code></li>
+    <li><code>swc-samba-cdt.zip</code></li>
+  </ul>
+  <p>
+    If you do not see these folders, check that the zip file was extracted successfully and try unzipping it again.
+  </p>
+</div>
+</div>
